@@ -81,7 +81,7 @@ if saved == 0:
 
     model.summary()
 
-    epochs = 6
+    epochs = 5
     history = model.fit(
         train_ds,
         validation_data=val_ds,
